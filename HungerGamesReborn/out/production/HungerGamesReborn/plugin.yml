@@ -1,0 +1,24 @@
+name: Hunger_Games_Reborn
+version: 2.5.0
+description: Hunger Games System Official by Dev Team.
+main: me.starboy.util.Main
+commands:
+  fun:
+    description: Try this command for some fun in your life.
+    usage: /fun
+  api:
+    description: You this to get your own API key for your Web apps, Apps etc.
+    usage: /api
+  connect:
+    description: Use this to force connect with our API servers in case of lagg (Only available after our API system is released).
+    usage: /connect
+  manager:
+    description: Opens Player Manager Menu
+    usage: /manager
+  settings:
+    description: Opens Player Settings Menu
+    usage: /settings
+    aliases: [Settings, configuration, Configuration, Config]
+  transfer:
+    description: Only a OP Player can use this shut down the server with a CTP Key.
+    usage: /ctp key
